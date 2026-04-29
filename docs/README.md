@@ -2,6 +2,10 @@
 
 Portfólio acadêmico e profissional desenvolvido como site estático, com foco em projetos da FATEC Jacareí, automação, desenvolvimento e evolução na área de tecnologia.
 
+## Deploy
+
+https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523030/
+
 ## Estrutura
 
 ```text
@@ -33,7 +37,3 @@ PORTIFOLIO/
 ## Como Abrir
 
 Abra o arquivo `index.html` no navegador ou use uma extensão de servidor local, como Live Server.
-
-## Observação
-
-O botão de currículo já aponta para `assets/documents/CV.pdf`. Quando o currículo estiver pronto, basta adicionar o arquivo com esse nome nessa pasta.
