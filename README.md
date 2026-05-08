@@ -1,4 +1,4 @@
-# Portfólio Acadêmico - Luiza Manchini
+# Portfólio Acadêmico - Luiza Manchini 🎓
 
 Portfólio acadêmico e profissional desenvolvido como site estático, com foco em projetos da FATEC Jacareí, automação, desenvolvimento e evolução na área de tecnologia.
 
@@ -38,6 +38,4 @@ PORTIFOLIO/
 - `css`: estilos globais do site.
 - `js`: scripts de navegação, menu e animações.
 
-## Como Abrir
 
-Abra o arquivo `index.html` no navegador ou use uma extensão de servidor local, como Live Server.
