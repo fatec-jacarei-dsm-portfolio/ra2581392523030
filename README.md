@@ -6,6 +6,10 @@ Portfólio acadêmico e profissional desenvolvido como site estático, com foco 
 
 https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523030/
 
+## Apresentação 
+
+Video no Youtube: https://youtu.be/ioX3nZHaBgk
+
 ## Estrutura
 
 ```text
