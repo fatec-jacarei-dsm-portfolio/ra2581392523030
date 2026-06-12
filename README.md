@@ -1,41 +1,8 @@
-# Portfólio Acadêmico - Luiza Manchini 🎓
+# Portfólio de Projetos - Fatec Jacareí
 
-Portfólio acadêmico e profissional desenvolvido como site estático, com foco em projetos da FATEC Jacareí, automação, desenvolvimento e evolução na área de tecnologia.
+**RA:** 2581392523030  
+**Aluno:** Luiza Manchini  
+**Curso:** Desenvolvimento de Software Multiplataforma
 
-## Deploy
-
-https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523030/
-
-## Apresentação 
-
-Video no Youtube: https://youtu.be/ioX3nZHaBgk
-
-## Estrutura
-
-```text
-PORTIFOLIO/
-├── index.html
-├── README.md
-├── assets/
-│   ├── documents/
-│   │   └── CV.pdf
-│   ├── icons/
-│   │   └── favicon.svg
-│   └── images/
-│       ├── GifFigma.gif
-│       └── perfil.jpeg
-├── css/
-│   └── style.css
-└── js/
-    └── script.js
-```
-
-## Pastas
-
-- `assets/images`: imagens e GIFs usados nas seções do portfólio.
-- `assets/icons`: favicon e possíveis ícones do projeto.
-- `assets/documents`: documentos para download, como o currículo em `CV.pdf`.
-- `css`: estilos globais do site.
-- `js`: scripts de navegação, menu e animações.
-
-
+**Portfólio online:** https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523030/  
+**Vídeo 2DSM:** https://www.youtube.com/watch?v=JsSmviZzrIc
