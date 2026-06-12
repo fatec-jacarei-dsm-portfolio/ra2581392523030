@@ -38,6 +38,25 @@ const toggleHeader = () => {
   header.classList.toggle('is-scrolled', window.scrollY > 16 || menuIsOpen);
 };
 
+const updateActiveSection = () => {
+  if (sections.length === 0) {
+    return;
+  }
+
+  const probeLine = window.innerHeight * 0.34;
+  const headerOffset = header ? header.getBoundingClientRect().height : 0;
+  let activeSection = sections[0];
+
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect();
+    if (rect.top - headerOffset <= probeLine) {
+      activeSection = section;
+    }
+  });
+
+  setActiveLink(activeSection.id);
+};
+
 document.querySelectorAll('.hero [data-reveal]').forEach((item) => {
   item.classList.add('is-visible');
 });
@@ -65,22 +84,6 @@ if ('IntersectionObserver' in window) {
       revealObserver.observe(item);
     }
   });
-
-  const sectionObserver = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setActiveLink(entry.target.id);
-        }
-      });
-    },
-    {
-      threshold: 0.42,
-      rootMargin: '-25% 0px -45% 0px'
-    }
-  );
-
-  sections.forEach((section) => sectionObserver.observe(section));
 } else {
   revealItems.forEach((item) => item.classList.add('is-visible'));
 }
@@ -112,8 +115,11 @@ if (menuToggle && siteNav) {
 
 setActiveLink('inicio');
 toggleHeader();
+updateActiveSection();
 
 window.addEventListener('scroll', toggleHeader, { passive: true });
+window.addEventListener('scroll', updateActiveSection, { passive: true });
+window.addEventListener('resize', updateActiveSection);
 
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
