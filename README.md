@@ -9,7 +9,6 @@
 
 ## Portfólio Online
 
-🔗 https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523030/
 
 ---
 
